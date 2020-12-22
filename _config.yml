@@ -17,7 +17,7 @@ aomori_logo_typed_animated: true
 aomori_search_algolia: true
 algolia:
   applicationID: 'KY4NYLOG0P'
-  apiKey: ''
+  #apiKey: ''
   indexName: '321log'
 aomori_menu:
   Home: /
