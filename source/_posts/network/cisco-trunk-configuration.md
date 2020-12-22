@@ -11,6 +11,7 @@ category:
 tags:
 - cisco
 photos: https://res.cloudinary.com/bimagv/image/upload/v1608573460/banner/cisco-srwe_uhz3er.png
+excerpt: Memahami Trunk (penghubung 2 switch VLAN) pada sebuah VLAN
 ---
 **Simpelnya trunk itu diperlukan untuk meneruskan informasi VLAN antar switch.**
 

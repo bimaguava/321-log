@@ -11,6 +11,7 @@ category:
 tags:
 - cisco
 photos: https://res.cloudinary.com/bimagv/image/upload/v1608573469/banner/cisco-ensa_cavb6w.png
+excerpt: Belajar mengimplementaskan OSPF pada jaringan/topologi point to point
 ---
 # **Petunjuk**
 

@@ -10,8 +10,8 @@ category:
 - ensa
 tags:
 - cisco
-excerpt: Memahami Apa dan bagaimana OSPF itu
 photos: https://res.cloudinary.com/bimagv/image/upload/v1608573469/banner/cisco-ensa_cavb6w.png
+excerpt: Mengenal OSPF (98% teori)
 ---
 # Preface
 

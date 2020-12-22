@@ -11,6 +11,7 @@ category:
 tags:
 - cisco
 photos: https://res.cloudinary.com/bimagv/image/upload/v1608573460/banner/cisco-srwe_uhz3er.png
+excerpt: Belajar menggunakan VLAN dan menetapkan access port (port yang terhubung dengan host pada suatu vlan)
 ---
 ## Petunjunk
 

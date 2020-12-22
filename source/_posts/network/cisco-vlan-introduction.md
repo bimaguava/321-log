@@ -11,6 +11,7 @@ category:
 tags:
 - cisco
 photos: https://res.cloudinary.com/bimagv/image/upload/v1608573460/banner/cisco-srwe_uhz3er.png
+excerpt: Mengetahui VLAN (Virtual LAN) (98% teori)
 ---
 **secara default, switch membagi collision domain dan router membagi broadcast domain**
 

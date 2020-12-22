@@ -11,11 +11,12 @@ category:
 tags:
 - cisco
 photos: https://res.cloudinary.com/bimagv/image/upload/v1608573469/banner/cisco-ensa_cavb6w.png
+excerpt: Belajar mengimplementasikan OSPF pada jaringan point to pont dan broad...
 ---
 # **Objectives**
 
 Kalau di materi [sebelumnya](https://8log.js.org/2020/08/16/network/cisco-ospfv2-single-area-point-to-point/), kita sudah mengimplementasikan OSPF single area dengan topologi point to point, sekarang kita akan mencoba menerapkannya ke jaringan `point to point and broadcast multiaccess`.
-<!-- more -->
+
 # **Overview**
 
 Sekarang kita akan mencoba untuk mengkonfigurasi Routing Dynamic OSPF, untuk yang ingin tahu cara melihat dan menganalisis konfigurasi OSPF sebelumnya sudah dijelaskan di [sini](https://8log.js.org/2020/09/08/network/cisco-ospfv2-single-area-verify/).

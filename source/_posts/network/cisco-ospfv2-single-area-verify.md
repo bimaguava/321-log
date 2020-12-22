@@ -11,6 +11,7 @@ category:
 tags:
 - cisco
 photos: https://res.cloudinary.com/bimagv/image/upload/v1608573469/banner/cisco-ensa_cavb6w.png
+excerpt: Mempelajari sistem kerja dan perintah verifikasi OSPF
 ---
 # **Objectives**
 
@@ -21,7 +22,7 @@ Pada materi ini kita akan belajar menggunakan perintah verifikasi pada jaringan 
 * Mengetahui bagaimana `Neighbor state` ditentukan
 * Melihat konfigurasi OSPF process ID
 * Dan juga nanti kita akan menambahkan sebuah LAN ke sebuah OSPF network
-<!-- more -->
+
 # **Lab**
 
 ![](/images/2020-08-09_sel_07-49-05.png)

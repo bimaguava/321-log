@@ -9,6 +9,7 @@ category:
 tags:
 - gulp
 photos: https://res.cloudinary.com/bimagv/image/upload/v1608603264/banner/frontend-gulp_pqy765.png
+excerpt: Memulai menggunakan gulp sebagai bahan pengembangan otomatisasi di sisi frontend
 ---
 
 asdasd

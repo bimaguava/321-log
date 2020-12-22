@@ -11,6 +11,7 @@ category:
 tags:
 - cisco
 photos: https://res.cloudinary.com/bimagv/image/upload/v1608572894/banner/cisco-itn_qy4u8i.png
+excerpt: Mempelajari sistem subnet IP version 6 dan implementasi pada Router dan PC
 ---
 
 # **Objectives**
@@ -18,7 +19,7 @@ photos: https://res.cloudinary.com/bimagv/image/upload/v1608572894/banner/cisco-
 * Menentukan subnet IPv6
 * Configure IPv6 Address pada router dan PC
 * Verifikasi kontektivitas IPv6
-<!-- more -->
+
 # **Lab**
 
 ![](https://res.cloudinary.com/bimagv/image/upload/v1599781824/2020-09/2020-11-09_Jum_06_50_10_ogano1.png)
