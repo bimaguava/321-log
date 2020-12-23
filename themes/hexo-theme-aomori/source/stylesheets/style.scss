@@ -2,11 +2,11 @@
 /* Font */
 @import url('https://fonts.googleapis.com/css2?family=Oswald:wght@500&display=swap');
 
-@import url('/source/fonts/give_you_glory/Give-You-Glory.css');
-@import url('/source/fonts/fira_code_nerd_font/FiraCodeMediumNerdFont.css');
-@import url('/source/fonts/fira_code/FiraCode.css');
-@import url('/source/fonts/fira_sans/FiraSans.css');
-@import url('/source/fonts/fira_sans_condensed/FiraSansCondensed.css');
+@import url('../fonts/give_you_glory/Give-You-Glory.css');
+@import url('../fonts/fira_code_nerd_font/FiraCodeMediumNerdFont.css');
+@import url('../fonts/fira_code/FiraCode.css');
+@import url('../fonts/fira_sans/FiraSans.css');
+@import url('../fonts/fira_sans_condensed/FiraSansCondensed.css');
 
 /* 样式重置 */
 
@@ -123,7 +123,7 @@ img:not([src]):not([srcset]) {
         display: flex;
         flex: 1;
         justify-content: flex-end;
-        
+
         &-inner {
             line-height: 40px;
             margin-right: 5px;
@@ -140,7 +140,7 @@ img:not([src]):not([srcset]) {
             a:active {
                 letter-spacing: 1px;
             }
-            
+
             a::after,
             a::before {
                 backface-visibility: hidden;
@@ -153,7 +153,7 @@ img:not([src]):not([srcset]) {
                 transition: all 280ms ease-in-out;
                 width: 0;
             }
-            
+
             a:hover::after,
             a:hover::before {
                 backface-visibility: hidden;
@@ -161,7 +161,7 @@ img:not([src]):not([srcset]) {
                 transition: width 350ms ease-in-out;
                 width: 80%;
             }
-            
+
             a:hover::before {
                 bottom: auto;
                 top: 0;
@@ -275,10 +275,10 @@ img:not([src]):not([srcset]) {
     position: relative;
     margin-bottom: 150px;
     z-index: 2;
-    
+
     .inner {
         padding-right: 300px;
-        
+
         .inner-main {
             position: relative;
             width: 100%;
@@ -344,7 +344,7 @@ img:not([src]):not([srcset]) {
             padding: 0 20px 15px;
             background: var(--color-white-light);
             overflow-y: scroll;
-            
+
             &-item {
                 display: block;
                 padding: 10px 0;
@@ -608,7 +608,7 @@ img:not([src]):not([srcset]) {
             justify-content: flex-end;
             padding: 20px 0 0;
             // font-family: 'Oswald', sans-serif;
-            
+
             .article-more-info {
                 display: flex;
 
@@ -658,7 +658,7 @@ img:not([src]):not([srcset]) {
             }
         }
 
-        // Video 
+        // Video
         .article-video {
             margin-bottom: 20px;
             border-radius: 5px;
@@ -738,7 +738,7 @@ img:not([src]):not([srcset]) {
             }
         }
 
-        // Video 
+        // Video
         .article-video {
             border-radius: 5px;
             overflow: hidden;
@@ -812,7 +812,7 @@ img:not([src]):not([srcset]) {
                     }
                 }
             }
-            
+
             .article-busuanzi,
             .article-counter {
                 align-items: center;
