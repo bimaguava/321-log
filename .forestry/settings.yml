@@ -6,14 +6,18 @@ webhook_url:
 sections:
 - type: directory
   path: source/_posts/frontend
-  label: FrontEnd
-  create: all
-  match: "**/*"
+  label: FroneEnd
+  create: documents
+  match: "*.md"
+  templates:
+  - blog-post
 - type: directory
   path: source/_posts/network
   label: Network
-  create: all
-  match: "**/*"
+  create: documents
+  match: "*.md"
+  templates:
+  - blog-post
 upload_dir: 2021-01/321
 public_path: https://res.cloudinary.com/bimagv/image/upload/v1611208052/2021-01/321
 front_matter_path: ''
