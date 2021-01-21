@@ -5,8 +5,13 @@ admin_path:
 webhook_url:
 sections:
 - type: directory
-  path: source/_posts
-  label: Posts
+  path: source/_posts/frontend
+  label: FrontEnd
+  create: all
+  match: "**/*"
+- type: directory
+  path: source/_posts/network
+  label: Network
   create: all
   match: "**/*"
 upload_dir: 2021-01/321
