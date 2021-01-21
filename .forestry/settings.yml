@@ -4,8 +4,8 @@ auto_deploy: false
 admin_path: 
 webhook_url: 
 sections: 
-upload_dir: 2021-01
-public_path: https://res.cloudinary.com/bimagv/image/upload/v1611208052/2021-01
+upload_dir: 2021-01/321
+public_path: https://res.cloudinary.com/bimagv/image/upload/v1611208052/2021-01/321
 front_matter_path: ''
 use_front_matter_path: 
 file_template: ":year:, :month:, :day:,:filename:"
