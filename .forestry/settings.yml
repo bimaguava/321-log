@@ -1,8 +1,8 @@
 ---
 new_page_extension: md
 auto_deploy: false
-admin_path:
-webhook_url:
+admin_path: 
+webhook_url: 
 sections:
 - type: directory
   path: source/_posts/frontend
@@ -18,10 +18,10 @@ sections:
   match: "*.md"
   templates:
   - blog-post
-upload_dir: 2021-01/321
-public_path: https://res.cloudinary.com/bimagv/image/upload/v1611208052/2021-01/321
+upload_dir: 2021-02/321
+public_path: https://res.cloudinary.com/bimagv/image/upload
 front_matter_path: ''
-use_front_matter_path:
+use_front_matter_path: 
 file_template: ":year:, :month:, :day:,:filename:"
 build:
   install_dependencies_command: npm install
