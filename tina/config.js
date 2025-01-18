@@ -25,32 +25,13 @@ export default defineConfig({
   },
   media: {
     tina: {
-      mediaRoot: "",
+      mediaRoot: "/source/images",
       publicFolder: "public",
     },
   },
   // See docs on content modeling for more info on how to setup new content models: https://tina.io/docs/schema/
   schema: {
     collections: [
-      {
-        format: "md",
-        label: "FroneEnd",
-        name: "froneend",
-        path: "source/_posts/frontend",
-        match: {
-          include: "*",
-        },
-        fields: [
-          {
-            type: "rich-text",
-            name: "body",
-            label: "Body of Document",
-            description: "This is the markdown body",
-            isBody: true,
-          },
-          ...blog_postFields(),
-        ],
-      },
       {
         format: "md",
         label: "Network",
