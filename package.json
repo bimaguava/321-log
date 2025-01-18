@@ -24,7 +24,6 @@
     "hexo-renderer-stylus": "^2.0.0",
     "hexo-server": "^2.0.0",
     "hexo-theme-landscape": "^0.0.3",
-    "sqlite3": "^5.1.7",
     "tinacms": "^2.6.0"
   },
   "description": "Numpang naro catetan, sekalian sharing juga :D Bisa dibilang ini sebuah blog gitu.",
