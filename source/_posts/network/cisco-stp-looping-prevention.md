@@ -16,6 +16,7 @@ excerpt: Mengetahui bagaimana STP dalam mencegah switching loop alias looping
 _template: blog_post
 ---
 
+
 ## Petunjuk
 
 Pada materi ini, kita akan mengamati status port spanning-tree dan melihat proses dari spanning-tree convergence.

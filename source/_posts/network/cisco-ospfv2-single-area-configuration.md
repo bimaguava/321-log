@@ -18,6 +18,7 @@ excerpt: Belajar mengimplementasikan OSPF pada jaringan point to pont dan broad.
 _template: blog_post
 ---
 
+
 # **Objectives**
 
 Kalau di materi [sebelumnya](https://8log.js.org/2020/08/16/network/cisco-ospfv2-single-area-point-to-point/), kita sudah mengimplementasikan OSPF single area dengan topologi point to point, sekarang kita akan mencoba menerapkannya ke jaringan `point to point and broadcast multiaccess`.

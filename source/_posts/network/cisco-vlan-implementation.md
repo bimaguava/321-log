@@ -16,6 +16,7 @@ excerpt: Belajar mengimplementasikan VLAN pada topologi sederhana
 _template: blog_post
 ---
 
+
 ## Petunjuk Awal VLAN
 
 Untuk teori silahkan baca di [sini]() karena sebelum membuat VLAN ada baiknya mengetahui kapan kita membutuhkan VLAN, dll.

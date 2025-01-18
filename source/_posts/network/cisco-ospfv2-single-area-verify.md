@@ -16,6 +16,7 @@ excerpt: Mempelajari sistem kerja dan perintah verifikasi OSPF
 _template: blog_post
 ---
 
+
 # **Objectives**
 
 Pada materi ini kita akan belajar menggunakan perintah verifikasi pada jaringan OSPFv2 ini seperti:

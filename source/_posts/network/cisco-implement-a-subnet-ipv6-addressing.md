@@ -17,6 +17,7 @@ _template: blog_post
 ---
 
 
+
 # **Objectives**
 
 * Menentukan subnet IPv6

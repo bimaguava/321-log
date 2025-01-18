@@ -16,6 +16,7 @@ excerpt: Belajar menggunakan EtherChannel pada topologi sederhana
 _template: blog_post
 ---
 
+
 ## Petunjuk mengkonfig EtherChannel
 
 * EtherChannel tidak akan kebentuk kalau ada SPAN (Switched Port Analyzer) di salah satu port, SPAN ini fitur yang bisa diaktifin di Cisco switch untuk melihat frame yang keluar masuk di port itu (berguna untuk network monitoring juga)

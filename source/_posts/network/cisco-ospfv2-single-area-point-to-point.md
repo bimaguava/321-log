@@ -16,6 +16,7 @@ excerpt: Belajar mengimplementaskan OSPF pada jaringan/topologi point to point
 _template: blog_post
 ---
 
+
 # **Petunjuk**
 
 Pada materi ini kita akan mencoba belajar bagaimana untuk:

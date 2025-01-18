@@ -18,6 +18,7 @@ excerpt: >-
 _template: blog_post
 ---
 
+
 # **Overview**
 
 Di materi ini akan membahas tentang dasar-dasar dari bagaimana untuk dapat bekerja menggunakan sebuah Designated Router (DR) dan Backup Designated Router (BDR) pada OSPF.
