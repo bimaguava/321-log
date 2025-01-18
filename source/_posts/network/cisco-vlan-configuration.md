@@ -3,16 +3,21 @@ draft: true
 comments: true
 toc: true
 title: 'Cisco: VLAN Configuration'
-date: 2020-08-14T02:00:00Z
-updated: 
+date: 2020-08-14T02:00:00.000Z
+updated: null
 category:
-- network
-- srwe
+  - network
+  - srwe
 tags:
-- cisco
-photos: https://res.cloudinary.com/bimagv/image/upload/v1608573460/banner/cisco-srwe_uhz3er.png
-excerpt: Belajar menggunakan VLAN dan menetapkan access port (port yang terhubung dengan host pada suatu vlan)
+  - cisco
+photos: >-
+  https://res.cloudinary.com/bimagv/image/upload/v1608573460/banner/cisco-srwe_uhz3er.png
+excerpt: >-
+  Belajar menggunakan VLAN dan menetapkan access port (port yang terhubung
+  dengan host pada suatu vlan)
+_template: blog_post
 ---
+
 ## Petunjunk
 
 ## Lab

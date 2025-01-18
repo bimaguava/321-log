@@ -3,16 +3,19 @@ draft: true
 comments: true
 toc: true
 title: 'Cisco: OSPF introduction'
-date: 2020-08-22T16:48:00.000+00:00
-updated: 
+date: 2020-08-22T16:48:00.000Z
+updated: null
 category:
-- network
-- ensa
+  - network
+  - ensa
 tags:
-- cisco
-photos: https://res.cloudinary.com/bimagv/image/upload/v1608573469/banner/cisco-ensa_cavb6w.png
+  - cisco
+photos: >-
+  https://res.cloudinary.com/bimagv/image/upload/v1608573469/banner/cisco-ensa_cavb6w.png
 excerpt: Mengenal OSPF (98% teori)
+_template: blog_post
 ---
+
 # Preface
 
 OSPF ialah sebuah [_Dynamic Routing Protocol_](https://www.ccnablog.com/dynamic-routing-protocols/) yang merupakan bagian dari `link state protocol`, yang dikenal dengan algoritma **shortest path first**-nya untuk menemukan jalur terbaik bagi router untuk sampai ke destinationnya yang sangat berguna untuk meminimalisir penggunaan bandwith terutama untuk network yang sudah sangat komplex.

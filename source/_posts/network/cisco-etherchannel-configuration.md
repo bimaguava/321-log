@@ -3,16 +3,19 @@ draft: true
 comments: true
 toc: true
 title: 'Cisco: EtherChannel Configuration'
-date: 2020-08-08T15:52:00Z
-updated: 
+date: 2020-08-08T15:52:00.000Z
+updated: null
 category:
-- network
-- srwe
+  - network
+  - srwe
 tags:
-- cisco
-photos: https://res.cloudinary.com/bimagv/image/upload/v1608573460/banner/cisco-srwe_uhz3er.png
+  - cisco
+photos: >-
+  https://res.cloudinary.com/bimagv/image/upload/v1608573460/banner/cisco-srwe_uhz3er.png
 excerpt: Belajar menggunakan EtherChannel pada topologi sederhana
+_template: blog_post
 ---
+
 ## Petunjuk mengkonfig EtherChannel
 
 * EtherChannel tidak akan kebentuk kalau ada SPAN (Switched Port Analyzer) di salah satu port, SPAN ini fitur yang bisa diaktifin di Cisco switch untuk melihat frame yang keluar masuk di port itu (berguna untuk network monitoring juga)

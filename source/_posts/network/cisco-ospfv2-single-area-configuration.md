@@ -2,17 +2,22 @@
 draft: true
 comments: true
 toc: true
-title: 'Cisco: OSPFv2 Single Area Configuration (point to point and broadcast multiaccess)'
-date: 2020-09-08T13:06:00Z
-updated: 
+title: >-
+  Cisco: OSPFv2 Single Area Configuration (point to point and broadcast
+  multiaccess)
+date: 2020-09-08T13:06:00.000Z
+updated: null
 category:
-- network
-- ensa
+  - network
+  - ensa
 tags:
-- cisco
-photos: https://res.cloudinary.com/bimagv/image/upload/v1608573469/banner/cisco-ensa_cavb6w.png
+  - cisco
+photos: >-
+  https://res.cloudinary.com/bimagv/image/upload/v1608573469/banner/cisco-ensa_cavb6w.png
 excerpt: Belajar mengimplementasikan OSPF pada jaringan point to pont dan broad...
+_template: blog_post
 ---
+
 # **Objectives**
 
 Kalau di materi [sebelumnya](https://8log.js.org/2020/08/16/network/cisco-ospfv2-single-area-point-to-point/), kita sudah mengimplementasikan OSPF single area dengan topologi point to point, sekarang kita akan mencoba menerapkannya ke jaringan `point to point and broadcast multiaccess`.

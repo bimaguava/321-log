@@ -3,16 +3,19 @@ draft: true
 comments: true
 toc: true
 title: 'Cisco: Implement a subnet IPv6 addressing'
-date: 2020-09-11T11:33:00Z
-updated: 
+date: 2020-09-11T11:33:00.000Z
+updated: null
 category:
-- network
-- itn
+  - network
+  - itn
 tags:
-- cisco
-photos: https://res.cloudinary.com/bimagv/image/upload/v1608572894/banner/cisco-itn_qy4u8i.png
+  - cisco
+photos: >-
+  https://res.cloudinary.com/bimagv/image/upload/v1608572894/banner/cisco-itn_qy4u8i.png
 excerpt: Mempelajari sistem subnet IP version 6 dan implementasi pada Router dan PC
+_template: blog_post
 ---
+
 
 # **Objectives**
 

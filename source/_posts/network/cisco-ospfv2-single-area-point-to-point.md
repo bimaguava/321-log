@@ -3,16 +3,19 @@ draft: true
 comments: true
 toc: true
 title: 'Cisco: OSPFv2 Single Area Point to Point'
-date: 2020-08-16T23:49:00.000+00:00
-updated: 
+date: 2020-08-16T23:49:00.000Z
+updated: null
 category:
-- network
-- ensa
+  - network
+  - ensa
 tags:
-- cisco
-photos: https://res.cloudinary.com/bimagv/image/upload/v1608573469/banner/cisco-ensa_cavb6w.png
+  - cisco
+photos: >-
+  https://res.cloudinary.com/bimagv/image/upload/v1608573469/banner/cisco-ensa_cavb6w.png
 excerpt: Belajar mengimplementaskan OSPF pada jaringan/topologi point to point
+_template: blog_post
 ---
+
 # **Petunjuk**
 
 Pada materi ini kita akan mencoba belajar bagaimana untuk:

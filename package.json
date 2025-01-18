@@ -23,7 +23,8 @@
     "hexo-renderer-marked": "^3.0.0",
     "hexo-renderer-stylus": "^2.0.0",
     "hexo-server": "^2.0.0",
-    "hexo-theme-landscape": "^0.0.3"
+    "hexo-theme-landscape": "^0.0.3",
+    "tinacms": "^2.6.0"
   },
   "description": "Numpang naro catetan, sekalian sharing juga :D Bisa dibilang ini sebuah blog gitu.",
   "main": "index.js",
@@ -37,5 +38,8 @@
   "bugs": {
     "url": "https://github.com/bimaguava/321-log/issues"
   },
-  "homepage": "https://github.com/bimaguava/321-log#readme"
+  "homepage": "https://github.com/bimaguava/321-log#readme",
+  "devDependencies": {
+    "@tinacms/cli": "^1.8.0"
+  }
 }

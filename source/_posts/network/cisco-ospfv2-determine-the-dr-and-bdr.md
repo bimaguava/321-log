@@ -3,16 +3,21 @@ draft: true
 comments: true
 toc: true
 title: 'Cisco: OSPFv2 Determine the DR and BDR'
-date: 2020-08-24T18:00:00.000+00:00
-updated: 
+date: 2020-08-24T18:00:00.000Z
+updated: null
 category:
-- network
-- ensa
+  - network
+  - ensa
 tags:
-- cisco
-photos: https://res.cloudinary.com/bimagv/image/upload/v1608573469/banner/cisco-ensa_cavb6w.png
-excerpt: Mengetahui bagaimana sistem eleksi Designated Router dan Backup Designated Router
+  - cisco
+photos: >-
+  https://res.cloudinary.com/bimagv/image/upload/v1608573469/banner/cisco-ensa_cavb6w.png
+excerpt: >-
+  Mengetahui bagaimana sistem eleksi Designated Router dan Backup Designated
+  Router
+_template: blog_post
 ---
+
 # **Overview**
 
 Di materi ini akan membahas tentang dasar-dasar dari bagaimana untuk dapat bekerja menggunakan sebuah Designated Router (DR) dan Backup Designated Router (BDR) pada OSPF.

@@ -3,16 +3,19 @@ draft: true
 comments: true
 toc: true
 title: 'Cisco: OSPFv2 Single Area (Verify)'
-date: 2020-09-08T00:40:00Z
-updated: 
+date: 2020-09-08T00:40:00.000Z
+updated: null
 category:
-- network
-- ensa
+  - network
+  - ensa
 tags:
-- cisco
-photos: https://res.cloudinary.com/bimagv/image/upload/v1608573469/banner/cisco-ensa_cavb6w.png
+  - cisco
+photos: >-
+  https://res.cloudinary.com/bimagv/image/upload/v1608573469/banner/cisco-ensa_cavb6w.png
 excerpt: Mempelajari sistem kerja dan perintah verifikasi OSPF
+_template: blog_post
 ---
+
 # **Objectives**
 
 Pada materi ini kita akan belajar menggunakan perintah verifikasi pada jaringan OSPFv2 ini seperti:

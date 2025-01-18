@@ -3,16 +3,19 @@ draft: true
 comments: true
 toc: true
 title: 'Cisco: VLAN Implementation'
-date: 2020-08-12T17:00:00Z
-updated: 
+date: 2020-08-12T17:00:00.000Z
+updated: null
 category:
-- network
-- srwe
+  - network
+  - srwe
 tags:
-- cisco
-photos: https://res.cloudinary.com/bimagv/image/upload/v1608573460/banner/cisco-srwe_uhz3er.png
+  - cisco
+photos: >-
+  https://res.cloudinary.com/bimagv/image/upload/v1608573460/banner/cisco-srwe_uhz3er.png
 excerpt: Belajar mengimplementasikan VLAN pada topologi sederhana
+_template: blog_post
 ---
+
 ## Petunjuk Awal VLAN
 
 Untuk teori silahkan baca di [sini]() karena sebelum membuat VLAN ada baiknya mengetahui kapan kita membutuhkan VLAN, dll.

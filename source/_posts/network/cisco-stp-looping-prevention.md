@@ -3,16 +3,19 @@ draft: true
 comments: true
 toc: true
 title: 'Cisco: STP Looping prevention'
-date: 2020-08-14T06:37:00Z
-updated: 
+date: 2020-08-14T06:37:00.000Z
+updated: null
 category:
-- network
-- srwe
+  - network
+  - srwe
 tags:
-- cisco
-photos: https://res.cloudinary.com/bimagv/image/upload/v1608573460/banner/cisco-srwe_uhz3er.png
+  - cisco
+photos: >-
+  https://res.cloudinary.com/bimagv/image/upload/v1608573460/banner/cisco-srwe_uhz3er.png
 excerpt: Mengetahui bagaimana STP dalam mencegah switching loop alias looping
+_template: blog_post
 ---
+
 ## Petunjuk
 
 Pada materi ini, kita akan mengamati status port spanning-tree dan melihat proses dari spanning-tree convergence.
