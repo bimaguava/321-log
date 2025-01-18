@@ -42,8 +42,5 @@
   "homepage": "https://github.com/bimaguava/321-log#readme",
   "devDependencies": {
     "@tinacms/cli": "^1.8.0"
-  },
-  "scripts": {
-  "install": "node-pre-gyp install --fallback-to-build=false"
-}
+  }
 }
