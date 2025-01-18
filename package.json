@@ -23,15 +23,10 @@
     "hexo-renderer-marked": "^3.0.0",
     "hexo-renderer-stylus": "^2.0.0",
     "hexo-server": "^2.0.0",
-    "hexo-theme-landscape": "^0.0.3",
-    "react": "^18.3.1",
-    "react-dom": "^18.3.1",
-    "styled-components": "^6.1.14",
-    "tinacms": "^2.6.0"
+    "hexo-theme-landscape": "^0.0.3"
   },
   "description": "Numpang naro catetan, sekalian sharing juga :D Bisa dibilang ini sebuah blog gitu.",
   "main": "index.js",
-  "devDependencies": {},
   "repository": {
     "type": "git",
     "url": "git+https://github.com/bimaguava/321-log.git"
