@@ -24,6 +24,7 @@ export default defineConfig({
         label: "Blog Posts", // Label visible in TinaCMS
         name: "blog",       // Name used internally
         path: "source/_posts", // Path to the content folder in your project
+        format: "mdx", // Changed to 'mdx' for MDX support
         fields: [
           {
             name: "title",
@@ -40,8 +41,26 @@ export default defineConfig({
           {
             name: "content",
             label: "Content",
-            type: "rich-text", // Changed to 'rich-text' as 'text' is not supported
+            type: "rich-text", // Changed to 'rich-text' for rich text content
             maxSearchIndexFieldLength: 200, // Index up to 200 characters for this field
+            templates: [
+              {
+                name: "NewsletterSignup",
+                label: "Newsletter Sign Up",
+                fields: [
+                  {
+                    name: "children",
+                    label: "CTA",
+                    type: "rich-text",
+                  },
+                  {
+                    name: "buttonText",
+                    label: "Button Text",
+                    type: "string",
+                  }
+                ],
+              },
+            ],
           },
           {
             type: "datetime",
@@ -59,30 +78,27 @@ export default defineConfig({
             label: "Draft",
           },
           {
-            type: "object", // Keep as 'object' for handling array-like fields
+            type: "string", // Using string for categories
             name: "categories", 
             label: "Categories",
-            fields: [
+            list: true, // Make it a list of categories
+            options: [
               {
-                name: "category",
-                label: "Category",
-                type: "string", // Now it's a string for each category
-                list: true, // Make it a list of categories
+                value: 'movies',
+                label: 'Movies',
               },
+              {
+                value: 'music',
+                label: 'Music',
+              },
+              // Add other categories as needed
             ],
           },
           {
-            type: "object", // Keep as 'object' for handling array-like fields
+            type: "string", // Using string for tags
             name: "tags",
             label: "Tags",
-            fields: [
-              {
-                name: "tag",
-                label: "Tag",
-                type: "string", // Now it's a string for each tag
-                list: true, // Make it a list of tags
-              },
-            ],
+            list: true, // Make it a list of tags
           },
           {
             type: "string",
