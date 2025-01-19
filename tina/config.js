@@ -3,7 +3,7 @@ import { defineConfig } from "tinacms";
 export default defineConfig({
   branch: process.env.GITHUB_BRANCH || "master", // Define your Git branch
 
-  clientId: process.env.NEXT_PUBLIC_TINA_CLIENT_ID, // Your TinaCloud Client ID
+  clientId: process.env.PUBLIC_TINA_CLIENT_ID, // Your TinaCloud Client ID
   token: process.env.TINA_TOKEN, // Your TinaCloud Token
 
   build: {
