@@ -2,7 +2,7 @@ import { defineConfig } from "tinacms";
 import { blog_postFields } from "./templates"; // Import the blog_postFields function
 
 export default defineConfig({
-  branch: process.env.GITHUB_BRANCH || "main", // Define your Git branch
+  branch: process.env.GITHUB_BRANCH || "master", // Define your Git branch
 
   clientId: process.env.PUBLIC_TINA_CLIENT_ID, // Your TinaCloud Client ID
   token: process.env.TINA_TOKEN, // Your TinaCloud Token
