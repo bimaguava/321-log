@@ -43,6 +43,69 @@ export default defineConfig({
             type: "rich-text", // Changed to 'rich-text' as 'text' is not supported
             maxSearchIndexFieldLength: 200, // Index up to 200 characters for this field
           },
+          {
+            type: "datetime",
+            name: "date",
+            label: "Date",
+          },
+          {
+            type: "datetime",
+            name: "updated",
+            label: "Updated",
+          },
+          {
+            type: "boolean",
+            name: "draft",
+            label: "Draft",
+          },
+          {
+            type: "object", // Keep as 'object' for handling array-like fields
+            name: "categories", 
+            label: "Categories",
+            fields: [
+              {
+                name: "category",
+                label: "Category",
+                type: "string", // Now it's a string for each category
+                list: true, // Make it a list of categories
+              },
+            ],
+          },
+          {
+            type: "object", // Keep as 'object' for handling array-like fields
+            name: "tags",
+            label: "Tags",
+            fields: [
+              {
+                name: "tag",
+                label: "Tag",
+                type: "string", // Now it's a string for each tag
+                list: true, // Make it a list of tags
+              },
+            ],
+          },
+          {
+            type: "string",
+            name: "keywords",
+            label: "Keywords",
+            list: true, // This will let you enter a list of keywords
+          },
+          {
+            type: "boolean",
+            name: "comments",
+            label: "Comments",
+          },
+          {
+            type: "boolean",
+            name: "toc",
+            label: "Table of Contents",
+          },
+          {
+            name: "excerpt",
+            label: "Excerpt",
+            type: "string",
+            required: false,
+          },
         ],
       },
     ],
