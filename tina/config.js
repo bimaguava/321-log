@@ -1,10 +1,9 @@
 import { defineConfig } from "tinacms";
-import { blog_postFields } from "./templates"; // Import the blog_postFields function
 
 export default defineConfig({
   branch: process.env.GITHUB_BRANCH || "master", // Define your Git branch
 
-  clientId: process.env.PUBLIC_TINA_CLIENT_ID, // Your TinaCloud Client ID
+  clientId: process.env.NEXT_PUBLIC_TINA_CLIENT_ID, // Your TinaCloud Client ID
   token: process.env.TINA_TOKEN, // Your TinaCloud Token
 
   build: {
@@ -41,28 +40,9 @@ export default defineConfig({
           {
             name: "content",
             label: "Content",
-            type: "rich-text",  // Change to rich-text
+            type: "rich-text", // Changed to 'rich-text' as 'text' is not supported
             maxSearchIndexFieldLength: 200, // Index up to 200 characters for this field
           },
-        ],
-      },
-      {
-        format: "md",
-        label: "Network", // Label visible in TinaCMS
-        name: "network",  // Name used internally
-        path: "source/_posts/network", // Path to the content folder in your project
-        match: {
-          include: "*", // Match all files in the folder
-        },
-        fields: [
-          {
-            type: "rich-text",
-            name: "body",
-            label: "Body of Document",
-            description: "This is the markdown body",
-            isBody: true,
-          },
-          ...blog_postFields(), // Include additional fields from blog_postFields() imported from templates.js
         ],
       },
     ],
