@@ -43,24 +43,6 @@ export default defineConfig({
             label: "Content",
             type: "rich-text", // Changed to 'rich-text' for rich text content
             maxSearchIndexFieldLength: 200, // Index up to 200 characters for this field
-            templates: [
-              {
-                name: "NewsletterSignup",
-                label: "Newsletter Sign Up",
-                fields: [
-                  {
-                    name: "children",
-                    label: "CTA",
-                    type: "rich-text",
-                  },
-                  {
-                    name: "buttonText",
-                    label: "Button Text",
-                    type: "string",
-                  }
-                ],
-              },
-            ],
           },
           {
             type: "datetime",
