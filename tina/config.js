@@ -22,9 +22,29 @@ export default defineConfig({
     collections: [
       {
         label: "Blog Posts", // Label visible in TinaCMS
-        name: "blog",       // Name used internally
+        name: "blog", // Name used internally
         path: "source/_posts", // Path to the content folder in your project
-        format: "mdx", // Changed to 'mdx' for MDX support
+        format: "md", // Markdown support
+        defaultItem: () => {
+          return {
+            title: "New Post",
+            // The body will be populated with default content using 'root' and 'children'
+            body: {
+              type: "root",
+              children: [
+                {
+                  type: "p",
+                  children: [
+                    {
+                      type: "text",
+                      text: "Default content goes here.",
+                    },
+                  ],
+                },
+              ],
+            },
+          };
+        },
         fields: [
           {
             name: "title",
@@ -39,9 +59,10 @@ export default defineConfig({
             searchable: false, // Exclude this field from the search index
           },
           {
-            name: "content",
-            label: "Content",
-            type: "rich-text", // Changed to 'rich-text' for rich text content
+            name: "body", // This will store the main content
+            label: "Body",
+            type: "rich-text", // Use rich-text for content
+            isBody: true, // Flag it as the main body content
             maxSearchIndexFieldLength: 200, // Index up to 200 characters for this field
           },
           {
@@ -60,30 +81,30 @@ export default defineConfig({
             label: "Draft",
           },
           {
-            type: "string", // Using string for categories
-            name: "categories", 
+            type: "string", // Categories field
+            name: "categories",
             label: "Categories",
             list: true, // Make it a list of categories
             options: [
               {
-                value: 'movies',
-                label: 'Movies',
+                value: "movies",
+                label: "Movies",
               },
               {
-                value: 'music',
-                label: 'Music',
+                value: "music",
+                label: "Music",
               },
               // Add other categories as needed
             ],
           },
           {
-            type: "string", // Using string for tags
+            type: "string", // Tags field
             name: "tags",
             label: "Tags",
             list: true, // Make it a list of tags
           },
           {
-            type: "string",
+            type: "string", // Keywords field
             name: "keywords",
             label: "Keywords",
             list: true, // This will let you enter a list of keywords
