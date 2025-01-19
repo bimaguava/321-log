@@ -5,6 +5,8 @@ date: 2025-01-18T17:00:00.000Z
 updated: 2025-01-18T17:00:00.000Z
 categories:
   - music
+tags:
+  - Front End
 excerpt: ini konten iseng iseeeeeng
 ---
 
