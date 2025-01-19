@@ -37,7 +37,7 @@ aomori_social:
   -
     icon: rss
     type: regular
-    url: https://321log.netlify.app/sitemap.xml
+    url: https://321-log.vercel.app/sitemap.xml
 aomori_baidu_sitepush: false  # or false
 aomori_baidu_analytics: ''
 aomori_google_analytics: 'UA-XXXXX-X'
