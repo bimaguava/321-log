@@ -125,6 +125,15 @@ export default defineConfig({
             type: "string",
             required: false,
           },
+          {
+            name: "photos",
+            label: "Photos",
+            type: "string", // Use string to store the URL of the photo
+            required: false, // Optional field
+            ui: {
+              component: "textarea", // You can use a textarea for better input of URLs
+            },
+          },
         ],
       },
     ],
